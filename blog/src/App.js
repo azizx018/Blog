@@ -1,4 +1,5 @@
 import HomePage from './pages/HomePage';
+import NavBar from './NavBar';
 import About from './pages/About';
 import ArticleListPage from './pages/ArticlesListPage';
 import ArticlePage from './pages/ArticlePage';
@@ -9,7 +10,7 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-      <h1>BLOGS!</h1>
+      <NavBar />
       <div id="page-body">
         <Routes>
           <Route path="/" element={<HomePage/>} />
