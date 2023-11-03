@@ -31,5 +31,5 @@ app.put('/api/articles/:name/upvote', (req, res) => {
 });
 
 app.listen(8000, () => {
-    console.log('Server is listening on prot 8000')
+    console.log('Server is listening on port 8000')
 });
