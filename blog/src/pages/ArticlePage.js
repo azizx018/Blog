@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom";
 import articles from "./article-content";
 
+
 const ArticlePage = () => {
     const params = useParams();
     const articleId = params.articleId;
@@ -15,7 +16,7 @@ const ArticlePage = () => {
         
         </>
         
-    );
+    )
 }
 
 export default ArticlePage;
